@@ -83,9 +83,9 @@ cd tu_repositorio
 jupyter notebook S7_Version-Estudiante-Project-ConnectaTel.ipynb
 
 ## Guía de Reproducción
-Requisitos
-bashpip install pandas numpy matplotlib seaborn
-Estructura de archivos esperada
+### Requisitos
+bashpip install: pandas, numpy, matplotlib, seaborn
+### Estructura de archivos esperada
 📁 everpeak-analysis/
 ├── 📓 S7_Version-Estudiante-Project-ConnectaTel.ipynb
 ├── 📁 datasets/
@@ -93,7 +93,8 @@ Estructura de archivos esperada
 │   ├── users_latam.csv
 │   └── usage.csv
 └── 📄 README.md
-Pasos para reproducir
+
+### Pasos para reproducir
 
 Asegúrate de que los archivos CSV estén en la carpeta /datasets/ tal como se indica arriba
 Ejecuta las celdas en orden, de arriba hacia abajo
