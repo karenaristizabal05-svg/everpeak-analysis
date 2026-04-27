@@ -13,9 +13,13 @@ El análisis busca responder preguntas clave del negocio:
 ¿Qué recomendaciones se pueden hacer para mejorar la oferta de planes?
 
 ##  Datasets Utilizados
-plans.csv Información de los planes actuales (precio, minutos incluidos, GB, costo por extra)
-users_latam.csv Información de clientes (edad, ciudad, fecha de registro, plan)
-usage.csv Detalle del uso real de servicios (llamadas y mensajes)
+### plans.csv 
+Información de los planes actuales (precio, minutos incluidos, GB, costo por extra)
+### users_latam.csv 
+Información de clientes (edad, ciudad, fecha de registro, plan)
+### usage.csv 
+Detalle del uso real de servicios (llamadas y mensajes)
+
 Los datasets se relacionan a través de la columna user_id, formando un modelo one-to-many (1 usuario → múltiples registros de uso). Dichos datasets fueron provistos por la institución (Tripleten)
 
 ## Etapas del Análisis
