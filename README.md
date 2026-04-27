@@ -1,9 +1,9 @@
-Análisis de Clientes — ConnectaTel
+# Análisis de Clientes — ConnectaTel
 
 Análisis exploratorio de datos para una empresa de telecomunicaciones en Latinoamérica, con el objetivo de identificar patrones de consumo, detectar comportamientos atípicos y construir segmentos de clientes accionables.
 
 
-** Objetivo del Proyecto
+## Objetivo del Proyecto
 Evaluar el comportamiento de los clientes de ConnectaTel a partir de sus datos de registro y uso de servicios (llamadas y mensajes), cubriendo el período hasta el año 2024.
 El análisis busca responder preguntas clave del negocio:
 
@@ -12,13 +12,13 @@ El análisis busca responder preguntas clave del negocio:
 ¿Qué segmentos representan mayor oportunidad comercial?
 ¿Qué recomendaciones se pueden hacer para mejorar la oferta de planes?
 
-**  Datasets Utilizados
+##  Datasets Utilizados
 plans.csv Información de los planes actuales (precio, minutos incluidos, GB, costo por extra)
 users_latam.csv Información de clientes (edad, ciudad, fecha de registro, plan)
 usage.csv Detalle del uso real de servicios (llamadas y mensajes)
 Los datasets se relacionan a través de la columna user_id, formando un modelo one-to-many (1 usuario → múltiples registros de uso). Dichos datasets fueron provistos por la institución (Tripleten)
 
-** Etapas del Análisis
+## Etapas del Análisis
 1. Carga y Exploración Inicial
 
 Carga de los tres datasets con pandas
@@ -62,7 +62,7 @@ Visualización de distribución por segmento
 
 Traducción de hallazgos en conclusiones y recomendaciones accionables para el negocio
 
-** Cómo Ejecutar el Notebook
+## Cómo Ejecutar el Notebook
 Opción A — Abrir directamente desde GitHub con Google Colab
 
 En este repositorio, navega hasta el archivo S7_Version-Estudiante-Project-ConnectaTel.ipynb
@@ -78,11 +78,11 @@ bashgit clone https://github.com/tu_usuario/tu_repositorio.git
 cd tu_repositorio
 jupyter notebook S7_Version-Estudiante-Project-ConnectaTel.ipynb
 
-** Guía de Reproducción
+## Guía de Reproducción
 Requisitos
 bashpip install pandas numpy matplotlib seaborn
 Estructura de archivos esperada
-📁 tu_repositorio/
+📁 everpeak-analysis/
 ├── 📓 S7_Version-Estudiante-Project-ConnectaTel.ipynb
 ├── 📁 datasets/
 │   ├── plans.csv
@@ -100,7 +100,7 @@ Los comentarios en cada celda explican la lógica aplicada
 ⚠️ Nota: Si ejecutas el notebook en Google Colab, deberás subir los archivos CSV manualmente o montarlos desde Google Drive antes de ejecutar las celdas de carga de datos.
 
 
-** Tecnologías Utilizadas
+### Tecnologías Utilizadas
 
 Python 3
 pandas — manipulación y limpieza de datos
@@ -109,5 +109,5 @@ matplotlib — visualizaciones base
 seaborn — visualizaciones estadísticas
 
 
-** Autor: Karen Aristizabal Linkdn: www.linkedin.com/in/karen-aristizabal
+### Autor: Karen Aristizabal Linkdn: www.linkedin.com/in/karen-aristizabal
 Desarrollado como proyecto final del Sprint 7 — Análisis de Datos con Python.
