@@ -78,7 +78,7 @@ Si no aparece el botón, reemplaza github.com por colab.research.google.com/gith
 Una vez en Colab, ve a Runtime → Run all para ejecutar todas las celdas
 
 Opción B — Clonar el repositorio localmente
-bashgit clone https://github.com/karenaristizabal05-svg/everpeak-analysis.git
+bashgit clone https://github.com/karenaristizabal05-svg/ConnectaTel-analysis.git
 cd tu_repositorio
 jupyter notebook S7_Version-Estudiante-Project-ConnectaTel.ipynb
 
