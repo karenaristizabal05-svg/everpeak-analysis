@@ -86,7 +86,7 @@ jupyter notebook S7_Version-Estudiante-Project-ConnectaTel.ipynb
 ### Requisitos
 bashpip install: pandas, numpy, matplotlib, seaborn
 ### Estructura de archivos esperada
-📁 everpeak-analysis/
+📁 ConnectaTel-analysis/
 ├── 📓 S7_Version-Estudiante-Project-ConnectaTel.ipynb
 ├── 📁 datasets/
 │   ├── plans.csv
